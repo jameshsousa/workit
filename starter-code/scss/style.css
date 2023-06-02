@@ -1,5 +1,17 @@
-header {
+body {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  color: #FCF8FF;
+  display: flex;
+  justify-content: center;
+  width: 90%;
   height: 50vh;
-  background-color: purple;
+  background-color: #24053E;
+}
+header img {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */

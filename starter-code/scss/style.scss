@@ -1,5 +1,24 @@
-header {
+$purplecolor: #24053E;
+$greencolor: #44FFA1;
+$graycolor: #584D62;
+$primarycolor: #FCF8FF;
+$whitecolor: #FFFFFF;
+
+body {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    color: $primarycolor;
+    display: flex;
+    justify-content: center;
+    width: 90%;
     height: 50vh;
-    background-color: purple;
+    background-color: $purplecolor;
+    img {
+        width: 100px;
+    }
 }
