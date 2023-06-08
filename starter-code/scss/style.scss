@@ -22,3 +22,18 @@ header {
         width: 100px;
     }
 }
+
+.items {
+    display: flex;
+    span {
+        border-radius: 50px;
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        
+
+
+    }
+    
+}

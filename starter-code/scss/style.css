@@ -14,4 +14,15 @@ header {
 }
 header img {
   width: 100px;
+}
+
+.items {
+  display: flex;
+}
+.items span {
+  border-radius: 50px;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
