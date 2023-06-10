@@ -25,15 +25,26 @@ header {
 
 .items {
     display: flex;
+    margin-top: 80px;
     span {
         border-radius: 50px;
         border: 1px solid black;
-        width: 40px;
-        height: 40px;
         align-items: center;
         
 
 
     }
     
+}
+
+.actionable {
+    display: flex;
+}
+
+.data-driven {
+    display: flex;
+}
+
+.affordable {
+    display: flex;
 }
